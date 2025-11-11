@@ -9,7 +9,7 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
-echo "🔄 Starting to clone Win10Sur repositories..."
+echo "Starting to clone Win10Sur repositories..."
 echo "---------------------------------------------"
 
 # Function to clone a repo if it doesn't exist
@@ -18,11 +18,11 @@ clone_repo() {
     local folder_name=$(basename "$repo_url" .git)
 
     if [ -d "$folder_name" ]; then
-        echo "⚠️  Directory '$folder_name' already exists, skipping clone."
+        echo "Directory '$folder_name' already exists, skipping clone."
     else
-        echo "⬇️  Cloning $folder_name ..."
+        echo "Cloning $folder_name ..."
         git clone "$repo_url"
-        echo "✅ Successfully cloned $folder_name."
+        echo "Successfully cloned $folder_name."
     fi
 }
 
@@ -32,5 +32,11 @@ clone_repo "https://github.com/yeyushengfan258/Win10Sur-icon-theme"
 # Clone the Win10Sur KDE Theme
 clone_repo "https://github.com/yeyushengfan258/Win10Sur-kde"
 
+# Clone We10X icon theme
+clone_repo "https://github.com/yeyushengfan258/We10X-icon-theme"
+
+# Clone Win10OS-kde theme
+clone_repo "https://github.com/yeyushengfan258/Win10OS-kde"
+
 echo "---------------------------------------------"
-echo "🎉 All repositories cloned successfully!"
+echo "All repositories cloned successfully!"
