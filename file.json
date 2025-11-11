@@ -1,0 +1,8 @@
+{
+  "data-root": "/tmp/docker-data",
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  }
+}
