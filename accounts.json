@@ -1,0 +1,21 @@
+{
+  "activeAccountLocalId": "1d200d60-c426-4bf6-9ea4-361466e8081a",
+  "accounts": {
+    "1d200d60-c426-4bf6-9ea4-361466e8081a": {
+      "accessToken": "1d200d60-c426-4bf6-9ea4-361466e8081a",
+      "accessTokenExpiresAt": "3001-01-01T07:59:59Z",
+      "eligibleForMigration": false,
+      "hasMultipleProfiles": false,
+      "legacy": true,
+      "persistent": true,
+      "localId": "1d200d60-c426-4bf6-9ea4-361466e8081a",
+      "minecraftProfile": {
+        "id": "1d200d60-c426-4bf6-9ea4-361466e8081a",
+        "name": "SAYGEX"
+      },
+      "remoteId": "1d200d60-c426-4bf6-9ea4-361466e8081a",
+      "type": "Xbox",
+      "username": "SAYGEX"
+    }
+  }
+}
