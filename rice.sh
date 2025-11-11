@@ -1,7 +1,7 @@
 #!/bin/bash
 # ======================================================
-# Clone Win10Sur Icon and KDE Themes
-# Author: ChatGPT (GPT-5)
+# Clone Win10Sur And We10X Icon Themes and Win10OS And Win10Sur KDE Theme
+# Author: MysticGiggle
 # Date: 2025-11-11
 # Description: This script clones both Win10Sur themes
 # ======================================================
