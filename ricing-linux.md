@@ -8,7 +8,4 @@ Make sure you have **git** installed on your system:
 
 ```bash
 sudo apt install git -y
-
-## command
-
 chmod +x ./rice.sh
