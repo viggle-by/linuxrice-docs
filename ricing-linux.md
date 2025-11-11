@@ -9,6 +9,6 @@ Make sure you have **git** installed on your system:
 ```bash
 sudo apt install git -y
 
-```sh
+## command
 
 chmod +x ./rice.sh
